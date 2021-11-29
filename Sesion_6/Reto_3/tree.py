@@ -1,5 +1,6 @@
 import click,time
 from os import path, stat, listdir
+import json
 
 #########################################################
 class Archivo(object):
@@ -50,6 +51,18 @@ def imprime_en_texto(pArchivos):
 
     print(cadena)
 
+def crearJSON(pArchivos):
+  data = []
+  for archivo in pArchivos:
+    item = {"id": archivo.ruta}
+    item["type"] = archivo.type
+    item["size"] = archivo.size
+    item["date"] = archivo.date
+    data.append(item)
+    
+  with open('Sesion_6/Reto_3/salida.json', 'w') as archivoJSON:
+      json.dump(data, archivoJSON,indent=4)
+
 
 #######################################################
 @click.command()
@@ -60,7 +73,7 @@ def main(carpeta):
     print("Objetos en la ruta -->", carpeta)
     objArchivos = Carpeta(carpeta).LeerCarpeta()
     imprime_en_texto(objArchivos)
-
+    crearJSON(objArchivos)
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "Juanito-->visa",
+        "tasa": 2,
+        "deuda": 1000,
+        "pago": 5,
+        "cargos": 55
+    },
+    {
+        "ID": "Juanito-->master",
+        "tasa": 3,
+        "deuda": 3000,
+        "pago": 100,
+        "cargos": 99
+    }
+]

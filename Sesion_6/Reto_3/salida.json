@@ -1,0 +1,296 @@
+[
+    {
+        "id": "/root",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:23:54 2021"
+    },
+    {
+        "id": "/mnt",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:29:14 2021"
+    },
+    {
+        "id": "/dev",
+        "type": "Carpeta",
+        "size": 340,
+        "date": "Mon Nov 29 05:03:52 2021"
+    },
+    {
+        "id": "/sbin",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:25:40 2021"
+    },
+    {
+        "id": "/bin",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:29:01 2021"
+    },
+    {
+        "id": "/media",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:22:32 2021"
+    },
+    {
+        "id": "/lib",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:29:01 2021"
+    },
+    {
+        "id": "/tmp",
+        "type": "Carpeta",
+        "size": 98,
+        "date": "Mon Nov 29 05:47:40 2021"
+    },
+    {
+        "id": "/sys",
+        "type": "Carpeta",
+        "size": 0,
+        "date": "Mon Nov 29 05:03:52 2021"
+    },
+    {
+        "id": "/proc",
+        "type": "Carpeta",
+        "size": 0,
+        "date": "Mon Nov 29 05:03:52 2021"
+    },
+    {
+        "id": "/usr",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:29:14 2021"
+    },
+    {
+        "id": "/srv",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:22:32 2021"
+    },
+    {
+        "id": "/var",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:29:14 2021"
+    },
+    {
+        "id": "/lib64",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:22:32 2021"
+    },
+    {
+        "id": "/boot",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:22:32 2021"
+    },
+    {
+        "id": "/etc",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Mon Nov 29 05:03:51 2021"
+    },
+    {
+        "id": "/home",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:29:01 2021"
+    },
+    {
+        "id": "/opt",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:29:01 2021"
+    },
+    {
+        "id": "/run",
+        "type": "Carpeta",
+        "size": 10,
+        "date": "Mon Nov 29 05:03:53 2021"
+    },
+    {
+        "id": "/.dockerenv",
+        "type": "Archivo",
+        "size": 0,
+        "date": "Mon Nov 29 05:03:51 2021"
+    },
+    {
+        "id": "/io",
+        "type": "Carpeta",
+        "size": 100,
+        "date": "Mon Nov 29 05:03:51 2021"
+    },
+    {
+        "id": "/inject",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:29:14 2021"
+    },
+    {
+        "id": "/config",
+        "type": "Carpeta",
+        "size": 0,
+        "date": "Mon Nov 29 05:03:53 2021"
+    },
+    {
+        "id": "/phase2-erlang.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-react_native.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-fsharp.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-prolog.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-pascal.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-love2d.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-elixir.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/nix",
+        "type": "Carpeta",
+        "size": 0,
+        "date": "Mon Nov 29 05:03:53 2021"
+    },
+    {
+        "id": "/phase2-guile.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-assembly.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-d.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/run_dir",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:29:04 2021"
+    },
+    {
+        "id": "/gocode",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:29:01 2021"
+    },
+    {
+        "id": "/phase2-rlang.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-csharp.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-php.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-express.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-cpp.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-haskell.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-clisp.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-cpp11.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-mercury.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-crystal.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-jest.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/phase2-fortran.tar.bz2",
+        "type": "Archivo",
+        "size": 46,
+        "date": "Tue Nov 23 23:27:26 2021"
+    },
+    {
+        "id": "/lib32",
+        "type": "Carpeta",
+        "size": 4096,
+        "date": "Tue Nov 23 23:25:40 2021"
+    }
+]

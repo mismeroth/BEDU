@@ -1,0 +1,442 @@
+{
+    "Tree": [
+        {
+            "ruta": "/root",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:23:54 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/mnt",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:29:14 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/dev",
+            "type": "Carpeta",
+            "size": 340,
+            "date": "Mon Nov 29 04:04:39 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/sbin",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:25:40 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/bin",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:29:01 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/media",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:22:32 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/lib",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:29:01 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/tmp",
+            "type": "Carpeta",
+            "size": 98,
+            "date": "Mon Nov 29 04:49:29 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/sys",
+            "type": "Carpeta",
+            "size": 0,
+            "date": "Mon Nov 29 04:04:39 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/proc",
+            "type": "Carpeta",
+            "size": 0,
+            "date": "Mon Nov 29 04:04:39 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/usr",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:29:14 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/srv",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:22:32 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/var",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:29:14 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/lib64",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:22:32 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/boot",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:22:32 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/etc",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Mon Nov 29 04:04:39 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/home",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:29:01 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/opt",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:29:01 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/run",
+            "type": "Carpeta",
+            "size": 10,
+            "date": "Mon Nov 29 04:04:41 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/.dockerenv",
+            "type": "Archivo",
+            "size": 0,
+            "date": "Mon Nov 29 04:04:39 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/io",
+            "type": "Carpeta",
+            "size": 100,
+            "date": "Mon Nov 29 04:04:39 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/inject",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:29:14 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/config",
+            "type": "Carpeta",
+            "size": 0,
+            "date": "Mon Nov 29 04:04:41 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-erlang.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-react_native.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-fsharp.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-prolog.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-pascal.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-love2d.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-elixir.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/nix",
+            "type": "Carpeta",
+            "size": 0,
+            "date": "Mon Nov 29 04:04:41 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-guile.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-assembly.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-d.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/run_dir",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:29:04 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/gocode",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:29:01 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-rlang.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-csharp.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-php.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-express.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-cpp.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-haskell.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-clisp.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-cpp11.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-mercury.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-crystal.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-jest.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/phase2-fortran.tar.bz2",
+            "type": "Archivo",
+            "size": 46,
+            "date": "Tue Nov 23 23:27:26 2021"
+        }
+    ]
+}{
+    "Tree": [
+        {
+            "ruta": "/lib32",
+            "type": "Carpeta",
+            "size": 4096,
+            "date": "Tue Nov 23 23:25:40 2021"
+        }
+    ]
+}

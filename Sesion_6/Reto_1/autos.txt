@@ -1,0 +1,10 @@
+Nombre del Auto : BM
+Color : rojo
+Nivel de equipamiento [bajo, medio,alto] : alto
+Precio : 40000
+
+Nombre del Auto : Mercedez
+Color : blanco
+Nivel de equipamiento [bajo, medio,alto] : alto
+Precio : 50000
+
