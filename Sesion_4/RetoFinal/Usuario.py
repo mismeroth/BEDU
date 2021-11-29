@@ -5,7 +5,9 @@ class Usuario(object):
     self._tarjetas=[]
   
   def __str__(self):
-    cadena = "Informe de Tarjetas de {}".format(self.nombres)
+    cadena ="*"*50
+    cadena += "\nInforme de Tarjetas de {}\n".format(self.nombres)
+    cadena +="*"*50
     return cadena
   
   @property
@@ -15,5 +17,12 @@ class Usuario(object):
   def Adicionar(self,tarjeta):
     self._tarjetas.append(tarjeta)
   
-  def Eliminar(self):
-    pass
+  def Eliminar(self,pNombreTarjeta):
+    for tarjeta in self.tarjetas:
+      if tarjeta.nombre==pNombreTarjeta:
+        self.tarjetas.remove(tarjeta)
+        print("\n")
+        print("?"*50)
+        print("Tarjeta [{}] removida".format(pNombreTarjeta))
+        print("?"*50)
+        print("\n")
