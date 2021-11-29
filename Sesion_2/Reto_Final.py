@@ -13,11 +13,9 @@ def f_orden_lista(pLista):
 def f_genera_lista():
     """Genera una lista con numeros aleatorios"""
     lista = []
-    i = 0
     #genera 20 numeros aleatorios
-    while i <= 20:
-        lista.append(r.randint(0, 1000))
-        i = i + 1
+    lista = [r.randint(0, 1000) for i in range(20)]
+
     #ingresa valor repetido forzado
     lista.append(33)
     lista.append(33)
