@@ -1,4 +1,6 @@
 import TarjetaDB as tdb
+import Tarjeta as t
+
 import json
 
 class Usuario(object):
@@ -46,7 +48,8 @@ class Usuario(object):
       for tarjeta in pTarjetas:
           data = []
           for tarjeta in pTarjetas:
-            item = {"ID": "{}-->{}".format(self.nombres,tarjeta.nombre)}
+            item = {"userID": self.nombres}
+            item["franquicia"] = tarjeta.nombre
             item["tasa"] = tarjeta.tasa
             item["deuda"] = tarjeta.deuda
             item["pago"] = tarjeta.pago
@@ -55,3 +58,23 @@ class Usuario(object):
             
           with open('Sesion_6/Reto_Final/tarjetas.json', 'w') as archivoJSON:
               json.dump(data, archivoJSON,indent=4)
+
+    def leerJSON(self):
+      listatarjetas = []
+      with open('Sesion_6/Reto_Final/tarjetas.json') as file:
+        objTarjeta = t.Tarjeta
+        data = json.load(file)
+        for client in data:
+          objTarjeta.nombre=client["franquicia"]
+          objTarjeta.tasa=client["tasa"]
+          objTarjeta.deuda=client["deuda"]
+          objTarjeta.pago=client["pago"]
+          objTarjeta.cargos=client["cargos"]
+          listatarjetas.append(objTarjeta)
+        
+        print("\nJSON leido y adicionado a un Objeto")
+        print(listatarjetas)
+
+        
+
+        

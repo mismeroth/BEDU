@@ -1,5 +1,6 @@
 import Tarjeta as t, Usuario as u
 import TarjetaDB as tdb
+
 """Inicializa el programa para el reto final"""
 ##Crea Objetos de BBDD
 objTarjeta = tdb.TarjetaDB()
@@ -39,3 +40,4 @@ cliente.reporteDB()
 #Parte 3-- JSON
 ######################################################
 cliente.crearJSONTarjetas(cliente.tarjetas)
+cliente.leerJSON()

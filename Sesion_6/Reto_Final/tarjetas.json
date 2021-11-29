@@ -1,13 +1,15 @@
 [
     {
-        "ID": "Juanito-->visa",
+        "userID": "Juanito",
+        "franquicia": "visa",
         "tasa": 2,
         "deuda": 1000,
         "pago": 5,
         "cargos": 55
     },
     {
-        "ID": "Juanito-->master",
+        "userID": "Juanito",
+        "franquicia": "master",
         "tasa": 3,
         "deuda": 3000,
         "pago": 100,
