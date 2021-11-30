@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<title>BEDU</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../static/css/layout.css" type="text/css">
+	<link rel="stylesheet" href="../static/css/table.css" type="text/css">
+	<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+
+<body>
+	<div class="wrapper row1">
+		<header id="header" class="clear">
+			<div id="hgroup">
+				<h1><a href="#">{% block titulo %} {{ titulo }} {% endblock %}
+					</a></h1>
+			</div>
+		</header>
+	</div>
+	<!-- content -->
+	<div class="wrapper row2">
+		<div id="container" class="clear">
+			<!-- main content -->
+			<div id="intro">
+				<section class="clear">
+					<div class="container">
+						<div id="intro">
+							<section class="clear">
+								<a href="/" class="submit">
+									<strong>REGRESAR</strong></a>
+            </div></div>
+						<div class="table">
+							<div class="table-header">
+								<div class="header__item">Documento</div>
+                <div class="header__item">Nombres</div>
+								<div class="header__item">Correo</div>
+                <div class="header__item">Editar</div>
+							</div>
+							<div class="table-content">
+								{% for cliente in clientes %}
+								<div class="table-row">
+                  <div class="table-data">{{ cliente[2] }}</div>
+									<div class="table-data">{{ cliente[0] }}</div>
+									<div class="table-data">{{ cliente[1] }}</div>
+                  <div class="table-data"><a href="/"><img src="../static/images/edit.png"/></a></div>
+								</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<div class="wrapper row3">
+		<footer id="footer" class="clear">
+			<p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+		</footer>
+	</div>
+</body>
+
+</html>

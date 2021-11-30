@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<title>BEDU</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../static/css/layout.css" type="text/css">
+	<link rel="stylesheet" href="../static/css/form.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	 crossorigin="anonymous">
+	<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+
+<body>
+	<div class="wrapper row1">
+		<header id="header" class="clear">
+			<div id="hgroup">
+				<h1><a href="#">{% block titulo %} {{ titulo }} {% endblock %}
+					</a></h1>
+			</div>
+		</header>
+	</div>
+	<!-- content -->
+	<div class="wrapper row2">
+		<div id="container" class="clear">
+			<a href="/" class="submit">
+				<strong>REGRESAR</strong>
+      </a>
+			<!-- main content -->
+			<div id="intro">
+				<section class="clear">
+					<form class="formulario" method="POST" action="">
+						<div class="icon">
+							<i class="fas fa-user-circle"></i>
+      </div>
+      <div class="formcontainer">
+      <div class="container">
+        <label for="uname"><strong>Cliente</strong></label>
+        <input type="text" placeholder="Nombres y Apellidos" name="fNombresCliente" >
+        <label for="uname"><strong>Documento</strong></label>
+        <input type="text" placeholder="DNI" name="fDocumento" >
+        <label for="mail"><strong>E-mail</strong></label>
+        <input type="text" placeholder="Ingrese E-mail" name="fCorreoElectronico" >
+      </div>
+      <button type="submit"><strong>ENROLAR</strong></button>
+      <div class="container" style="background-color: #eee">
+        <label style="padding-left: 15px">
+          {% block mensaje %} {{ mensaje }} {% endblock %}
+        </label>
+      </div>
+    </form>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+  </footer>
+</div>
+</body>
+</html>

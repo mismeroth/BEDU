@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>BEDU</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="static/css/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="#">{% block titulo %} {{ titulo }} {% endblock %}
+</a></h1>
+    </div>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- main content -->
+    <div id="intro">
+      <section class="clear">
+        <!-- article 1 -->
+        <article class="two_quarter">
+          <h1>Que desea hacer hoy?</h1>
+        </article>
+        <!-- article 2 -->
+        <article class="two_quarter lastbox">
+          <figure>
+            <ul class="clear">
+              <li><a href="/create/"><img src="static/images/client.png" width="130" height="130" alt="">Crear Usuario</a></li>
+              <li><a href="#"><img src="static/images/card.png" width="130" height="130" alt="">Adicionar Tarjeta</a></li>
+              <li><a href="/reports/"><img src="static/images/report.png" width="130" height="130" alt="">Reportes</a></li>
+            </ul>
+          </figure>
+        </article>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+  </footer>
+</div>
+</body>
+</html>
